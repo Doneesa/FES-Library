@@ -134,3 +134,52 @@ button:active {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* 
+
+HIGHLIGHTS
+
+*/
+
+.highlight__wrapper {
+  display: flex;
+}
+
+.highlight {
+  padding: 0 24px;
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.highlight__para {
+  text-align: center;
+}
+
+.highlight__img {
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+i { 
+  border: 4px solid lightgrey;
+  padding: 40px;
+  font-size: 40px;
+  color: #7342d6;
+  margin-bottom: 24px;
+}
+
+.highlight__subtitle {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+
+
