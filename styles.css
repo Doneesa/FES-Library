@@ -92,10 +92,6 @@ h2 {
   text-align: center;
 }
 
-i {
-
-}
-
 button {
   cursor: pointer;
 }
@@ -143,6 +139,16 @@ button:active {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-cursor {
+  cursor: no-cursor;
 }
 
 /* 
@@ -197,7 +203,7 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-  border: 4px solid #7342d63d;
+  border: 4px solid #7342d649;
   color: #7342d6;
   width: 100px;
   height: 100px;
@@ -274,6 +280,26 @@ FEATURES
   color: #bfbfbf;
 }
 
-#latest {
-  display: flex;
+/*
+
+EXPLORE
+
+*/
+
+#explore {
+  background-color: rgba( 115, 66, 214, 0.1);
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424;
+}
+
+.footer__logo--img {
+  width: 160px;
 }
